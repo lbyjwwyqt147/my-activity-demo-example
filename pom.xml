@@ -113,6 +113,14 @@
             <optional>true</optional>
         </dependency>
 
+
+        <!-- 公用部分　-->
+        <dependency>
+            <groupId>pers.liujunyi</groupId>
+            <artifactId>common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
@@ -150,5 +158,17 @@
         </plugins>
     </build>
 
+
+    <repositories>
+        <repository>
+            <id>lbyjwwyqt147</id>
+            <name>lbyjwwyqt147</name>
+            <url>https://raw.github.com/lbyjwwyqt147/mvn-repo/master</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
+    </repositories>
 
 </project>
